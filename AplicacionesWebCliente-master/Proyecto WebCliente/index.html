@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Aplicaciones Cliente Servidor</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-h1">*15% off pago en transferencia*</h1>
+        <nav>
+            <div class="nav-logobar">
+                <img src="../Proyecto WebCliente/img/logo/logo-infinit.webp" alt="Logo de la empresa">
+            </div>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Anteojos de sol</a></li>
+                <li><a href="">Coleccion Essensials</a></li>
+                <li><a href="">Marcos de anteojos</a></li>
+                <li><a href="">Ediciones especiales</a></li>
+                <li><a href="">Contacto</a></li>
+                <div class="navbar-icons">
+                    <img src="img/icons/user-icon.png" alt="Iniciar sesión">
+                    <img src="img/icons/lupa-icon.png" alt="Buscador" id="lupa-icon" onclick="EstadoLupa(), boton()">
+                    <img src="img/icons/cart-icon.png" alt="carrito de compras">    
+                </div>
+            </ul>
+            <div class="navbar-form">
+                <form action="/AplicacionesWebCliente/Proyecto WebCliente/index.html" method="get">
+                    <input type="text" name="buscador" id="buscador" placeholder="Buscar..." maxlength="40">
+                    <!-- <button id="boton" type="submit">Buscar</button>  Se saco el boton por un tema de estilo-->
+                </form>
+                <h2></h2>
+            </div>
+        </nav>
+    </header>
+    <div class="banner-main">
+        <img src="img/banners/banner-index.webp" alt="">
+    </div>
+    <main>
+        <section>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="footer-info">
+        </br>
+            <p><a href="AboutUs.html">Sobre Nosotros</a></p>
+            <p><a href="TerminosServicio">Terminos De Servicio</a></p>
+            <p><a href="PoliticasReembolso">Politicas De Reembolso</a></p>
+        </div>
+        <div class="footer-icons">
+            <a href=""><img src="img/icons/facebook-icon.png" alt=""></a>
+            <a href=""><img src="img/icons/instagram-icon.png" alt=""></a>
+            <a href=""></a><img src="img/icons/youtube-icon.png" alt=""></a>
+            <a href=""></a><img src="img/icons/linkedin-icon.png" alt=""></a>
+            <a href=""></a><img src="img/icons/tiktok-icon.png" alt=""></a>
+            <a href=""></a><img src="img/icons/x-icon.png" alt=""></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2025 - Derechos reservados</p>
+        </div>
+    </footer>
+</body>
+<script src="js/efecto-lupa.js"></script>
+<script src="js/productos.js"></script>
+</html>

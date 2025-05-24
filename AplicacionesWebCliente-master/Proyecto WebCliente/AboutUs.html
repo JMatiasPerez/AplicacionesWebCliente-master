@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Aplicaciones Cliente Servidor</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-h1">*15% off pago en transferencia*</h1>
+        <nav>
+            <div class="nav-logobar">
+                <img src="../Proyecto WebCliente/img/logo/logo-infinit.webp" alt="Logo de la empresa">
+            </div>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Anteojos de sol</a></li>
+                <li><a href="">Coleccion Essensials</a></li>
+                <li><a href="">Marcos de anteojos</a></li>
+                <li><a href="">Ediciones especiales</a></li>
+                <li><a href="">Contacto</a></li>
+                <div class="navbar-icons">
+                    <img src="img/icons/user-icon.png" alt="Iniciar sesión">
+                    <img src="img/icons/lupa-icon.png" alt="Buscador" id="lupa-icon" onclick="EstadoLupa(), boton()">
+                    <img src="img/icons/cart-icon.png" alt="carrito de compras">    
+                </div>
+            </ul>
+            <div class="navbar-form">
+                <form action="/AplicacionesWebCliente/Proyecto WebCliente/index.html" method="get">
+                    <input type="text" name="buscador" id="buscador" placeholder="Buscar..." maxlength="40">
+                    <!-- <button id="boton" type="submit">Buscar</button>  Se saco el boton por un tema de estilo-->
+                </form>
+                <h2></h2>
+            </div>
+        </nav>
+    </header>
+    <main class="main-aboutUs">
+        <h3>Nuestra Historia</h3>
+        <p>
+            Nos dedicamos hace mas de 30 años al diseño de gafas por excelencia, Innovando con curiosidad permanente, construyendo nuestra propia personalidad. Hoy día tenemos una presencia muy fuerte a través de los canales online, redes sociales, y nuestros ﬂagship stores en el Barrio de Urquiza en el nuevo polo DOHO Donado 1999, En el barrio de Palermo Viejo, Thames 1602 y Thames 1524. En Belgrano, Av. Libertador 6501 Cdad. de Bs As sumado a nuestro HEADQUARTER en Hidalgo 1743, Villa Crespo y en Mar del Plata en Guemes 2361. Además, en el País, mas de 500 ópticas de todas las Provincias venden nuestros productos. Estamos muy entusiasmados con nuestras colaboraciones con artistas e inﬂuencers, como nuestra cápsula junto a PAMPITA.</p> 
+            
+            <p>Ofrecemos hoy gafas solares, monturas, lentes oftálmicas, gafas ﬁltrantes de luz azul. Todos estos productos y servicios se brindan junto a un equipo de Ópticos Profesionales. Fuimos reconocidos por el Gobierno de la Ciudad de Buenos Aires como empresa del Diseño, siendo la primera en el rubro en recibir este reconocimiento. También hemos sido ganadores del premio Best Store design award otorgador www.mido.com la feria de óptica de Milán más importante del planeta en el 2019.</p>
+    </main>
+    <footer>
+        <div class="footer-info">
+        </br>
+            <p><a href="AboutUs">Sobre Nosotros</a></p>
+            <p><a href="TerminosServicio">Terminos De Servicio</a></p>
+            <p><a href="PoliticasReembolso">Politicas De Reembolso</a></p>
+        </div>
+        <div class="footer-icons">
+            <a href=""><img src="img/icons/facebook-icon.png" alt=""></a>
+            <a href=""><img src="img/icons/instagram-icon.png" alt=""></a>
+            <a href=""></a><img src="img/icons/youtube-icon.png" alt=""></a>
+            <a href=""></a><img src="img/icons/linkedin-icon.png" alt=""></a>
+            <a href=""></a><img src="img/icons/tiktok-icon.png" alt=""></a>
+            <a href=""></a><img src="img/icons/x-icon.png" alt=""></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2025 - Derechos reservados</p>
+        </div>
+    </footer>
+</body>
+<script src="js/efecto-lupa.js"></script>
+</html>

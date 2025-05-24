@@ -1,0 +1,11 @@
+/* Efectos de Animacion de css*/
+
+@keyframes ScroolBanner {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
